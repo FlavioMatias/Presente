@@ -1,0 +1,58 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header
+{   
+    padding: 1em;
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Opcional: Centraliza horizontalmente os elementos */
+    gap: 10px; /* Espaço entre as imagens e o texto */
+}
+.imagem
+{
+
+    width: 2.5em; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+main
+{
+    width: 100%;
+    justify-content: center; /* Centraliza horizontalmente */
+
+}
+h1
+{
+    font-size: 0.7em;
+    text-align: center;
+}
+.carta
+{
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    background-color: rgb(252, 206, 252);
+}
+.us
+{
+    width: 12em;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20vw;
+    margin-bottom: 2em;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Opcional: Centraliza horizontalmente os elementos */
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.frô
+{
+    position:absolute;
+    right: 0;
+    top: 43vh;
+    width: 4em;
+    height: auto;
+}

@@ -1,0 +1,53 @@
+body{
+
+
+    margin: 0;
+    background-color: whitesmoke;
+}
+.container {
+
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+ 
+    height: 100%;
+    max-width: 500px; 
+}
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgb(53, 53, 53);
+    background-color: #db4dc8;
+    transition: transform 0.4s ease; /* Suaviza o movimento */
+}
+
+button:hover {
+    animation: bounce 0.4s ease forwards;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1); /* Tamanho original */
+    }
+    50% {
+        transform: scale(0.9); /* Diminui um pouco */
+    }
+    100% {
+        transform: scale(1.1); /* Aumenta um pouco mais que o original */
+    }
+}
+
+.card
+{
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    background-color: #f3a5e9;
+    padding: 3em;
+    max-width: 90vw;
+    margin: 3em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #533950;
+}
+
